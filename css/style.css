@@ -1,0 +1,21 @@
+nav{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(218, 139, 42, 0.689);
+    text-align: center;
+}
+.nav-enlace{
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    align-items: ;
+    
+}
+.nav-enlace:hover{
+    background-color: bisque;
+    color: black;
+}
+body{
+    background-color: rgba(225, 199, 168, 0.947);
+}
