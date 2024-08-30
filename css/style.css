@@ -1,3 +1,41 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  header{
+    line-height: 1.5;
+    letter-spacing: 1px;
+    
+
+}
+header a{
+    text-decoration: none;
+}
+header .titulo{
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(181, 105, 11, 0.689);
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: white;
+
+}
 nav{
     display: flex;  
     justify-content: space-around;
@@ -9,13 +47,44 @@ nav{
     color: white;
     padding: 10px 30px;
     text-decoration: none;
-    align-items: ;
-    
+
 }
 .nav-enlace:hover{
     background-color: bisque;
     color: black;
 }
+main{
+   padding-top: 40px;
+}
 body{
-    background-color: rgba(225, 199, 168, 0.947);
+    letter-spacing: 1px;
+}
+.titulo span{
+    font-size: 1,5rem;
+}
+.imagen_lucia{
+    max-width: 250px; 
+    border-radius: 35%; 
+    border: 2px solid rgba(225, 199, 168, 0.947);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    object-fit: cover;
+}
+
+.sobre_mi{
+    display: flex;
+    flex-direction:column;
+    margin-right: 20rem;
+    padding: 5rem;
+}
+.lista{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.formulario{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
