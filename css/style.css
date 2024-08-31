@@ -18,8 +18,6 @@
   header{
     line-height: 1.5;
     letter-spacing: 1px;
-    
-
 }
 header a{
     text-decoration: none;
@@ -27,37 +25,38 @@ header a{
 header .titulo{
     font-size: 2rem;
     text-align: center;
-    background-color: rgba(181, 105, 11, 0.689);
+    background-color: rgba(181, 101, 4, 0.689);
     margin: auto;
     padding-top: 10px;
     margin-top: 0;
     padding-bottom: 1rem;
     padding-top: 1rem;
     color: white;
-
 }
-nav{
-    display: flex;  
+nav {
+    
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(218, 139, 42, 0.689);
     text-align: center;
 }
 .nav-enlace{
     color: white;
     padding: 10px 30px;
     text-decoration: none;
-
+    background-color: rgb(214, 161, 95);
 }
 .nav-enlace:hover{
     background-color: bisque;
     color: black;
 }
 main{
-   padding-top: 40px;
+   padding-top: 20px;
+   font-size: 1.1rem;
 }
-body{
+body {
     letter-spacing: 1px;
+    padding-bottom: 0px;
+    min-height: 100%;
 }
 .titulo span{
     font-size: 1,5rem;
@@ -65,8 +64,8 @@ body{
 .imagen_lucia{
     max-width: 250px; 
     border-radius: 35%; 
-    border: 2px solid rgba(225, 199, 168, 0.947);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 2px solid rgb(225, 199, 168, 0.947);
+    box-shadow: 0 4px 8px rgb(0, 0, 0); 
     object-fit: cover;
 }
 
@@ -77,14 +76,30 @@ body{
     padding: 5rem;
 }
 .lista{
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 35%;
+    padding-right: 20%;
 }
 .formulario{
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: rgb(219, 156, 79);
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0);
 }
+.pie{
+height: 100%;  
+margin-top: 1rem;  
+}
+.posicion{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5.5rem;
+    margin-top: auto;
+    
+}
+.tamaño_titulo{
+    font-size: 5rem;
+}
+
